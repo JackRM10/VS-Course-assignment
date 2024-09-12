@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Jack's VS Course website'</h1>
+    <p>The Jimi Hendrix Experience - Voodoo Child (Slight Return) (Live In Maui, 1970)</p>
+</div>
+<br />
+<br/>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qFfnlYbFEiE?si=p9h1pQoxSKLYiKxN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br />
+    <p>
+        <button onclick="myMove()">Click Me</button>
+    </p>
+
+    <div id="myContainer">
+        <div id="myAnimation"></div>
+    </div>
+</body>
